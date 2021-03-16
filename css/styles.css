@@ -21,6 +21,15 @@ img         { vertical-align: top;  }
 .container {
     width: 1050px;
 }
+.site-header{
+    background-image: url(../img/img-header.png);
+    background-repeat: no-repeat;
+    height: 35rem ;
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+
+}
 
 @media (max-width: 992px) {
     .navbar-brand img{
@@ -29,13 +38,16 @@ img         { vertical-align: top;  }
     }    
 }
 
+.nav-link{
+    color: #ffffff!important;
+}
 @media (max-width: 1200px) {
     .navbar-nav li{
         margin-left: 5rem;
     }    
 }
 .nav-item a{
-    text-align: center;
+    text-align: start;
 }
 @media (min-width: 1200px) {
     .link1{
@@ -61,4 +73,7 @@ img         { vertical-align: top;  }
 /*footer*/
 footer{
     background-color: black;
+}
+.socialMedia a{
+    text-align: end;
 }
