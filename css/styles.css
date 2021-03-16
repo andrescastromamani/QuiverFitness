@@ -18,35 +18,47 @@ img         { vertical-align: top;  }
 
 
 /*Header*/
+.container {
+    width: 1050px;
+}
 
-.enlaces {
-    justify-content: space-between!important;
+@media (max-width: 992px) {
+    .navbar-brand img{
+        margin-bottom: 1.8rem;
+        width: 150px;
+    }    
+}
+
+@media (max-width: 1200px) {
+    .navbar-nav li{
+        margin-left: 5rem;
+    }    
+}
+.nav-item a{
     text-align: center;
 }
-.navegacion{
-    text-align: center;
+@media (min-width: 1200px) {
+    .link1{
+        margin-left: 140px;
+    }
+    .link2{
+        margin-left: 95px;
+    }
+    .link3{
+        margin-left: 95px;
+    }
+    .link4{
+        margin-left: 106px;
+    }
+    .link5{
+        margin-left: 109px;
+    }    
 }
-.navegacion a{
-    justify-content: space-between!important;
-    margin-right: 5rem;
-    color: #ffffff;
-}
-.navegacion a:last-of-type{
-    margin-right: 0;
-    text-align: end;
-}
+
+ 
+
 
 /*footer*/
 footer{
     background-color: black;
-}
-footer .row{
-    text-align: center;
-}
-.footer{
-    text-align: center;
-}
-.col a{
- justify-content: space-between;
- margin-right: 3rem;
 }
