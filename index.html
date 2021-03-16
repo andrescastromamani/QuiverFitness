@@ -14,16 +14,34 @@
 <body>
     <!--header-->
     <header>
-        <nav id="header"  class="bg-dark p-3">
-            <div class="container navegacion">
-              <a class="col" href="#">
-                <img src="img/logo-header.png" alt="logo header">
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container text-align-center">
+              <a class="navbar-brand mt-4 ms-5" href="#">
+                <img src="img/logo-header.png" alt="logo-header">
               </a>
-              <a class="col" href="#">About</a>
-              <a class="col" href="#">Members</a>
-              <a class="col" href="#">Trainers</a>
-              <a class="col" href="#">FAQ</a>
-              <a class="col" href="#">Conctact</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbar" 
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mt-2 enlaces">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Members</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Trainers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </nav>
     </header>

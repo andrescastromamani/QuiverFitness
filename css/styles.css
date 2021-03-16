@@ -18,6 +18,11 @@ img         { vertical-align: top;  }
 
 
 /*Header*/
+
+.enlaces {
+    justify-content: space-between!important;
+    text-align: center;
+}
 .navegacion{
     text-align: center;
 }
