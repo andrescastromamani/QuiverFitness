@@ -17,6 +17,8 @@ a:hover     { text-decoration: underline;  }
 img         { vertical-align: top;  }
 
 /*Styles Gral*/
+
+
 /*Header*/
 .container {
     width: 1050px;
@@ -197,10 +199,15 @@ img         { vertical-align: top;  }
     background-color: rgb(245,245,245);
     height: 495px;
 }
+
+/*Section Contact*/
+.section-contact{
+    height: 330px;
+}
 /*footer*/
 footer{
     background-color: black;
+    height: 70px;
+    align-items: center;
 }
-.socialMedia a{
-    text-align: end;
-}
+
