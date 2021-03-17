@@ -83,6 +83,17 @@ img         { vertical-align: top;  }
     height: 445px;
     background-size: cover;
 }
+
+/*Section Trainers*/
+.trainers{
+    background-color: rgb(163, 162, 162);
+}
+
+/*Pricing*/
+.pricing{
+    background-color: yellow;
+}
+
 /*footer*/
 footer{
     background-color: black;
