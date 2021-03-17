@@ -16,7 +16,7 @@ a:hover     { text-decoration: underline;  }
 .txt13px    {  font-size: 13px; }
 img         { vertical-align: top;  }
 
-
+/*Styles Gral*/
 /*Header*/
 .container {
     width: 1050px;
@@ -160,19 +160,43 @@ img         { vertical-align: top;  }
 
 /*Section works*/
 .section-work{
-    margin-top: 70px;
+    margin-top: 75px;
+    height: 750px;
+}
+.section-work h2{
+    font-size: 20px;
+}
+.section-work p{
+    margin-top: 125px;
+    margin-left: 50px;
+}
+.section-work img{
+        margin-top: 60px;
+        margin-left: 40px;
 }
 
 /*Section Trainers*/
 .trainers{
-    background-color: rgb(163, 162, 162);
+    background-color: rgb(245,245,245);
+    height: 560px;
+}
+.trainers .col img{
+    margin-bottom: 500px;
+    margin-left: 500px;
 }
 
 /*Pricing*/
 .pricing{
+    height: 495px;
     background-color: rgb(255, 223,0);
 }
 
+
+/*Section question*/
+.section-question{
+    background-color: rgb(245,245,245);
+    height: 495px;
+}
 /*footer*/
 footer{
     background-color: black;
