@@ -128,14 +128,39 @@ img         { vertical-align: top;  }
 
 
 
-/*section information*/
+/*section about and members*/
 .section-info{
-    background-image: url(../img/background-section.png);
+    margin-top: 17.5px;
+    background-image: url(../img/about-members.png);
     background-position: center center;
     background-repeat: no-repeat;
-    max-width: 100%;    
-    height: 445px;
     background-size: cover;
+}
+.about-members{
+    width: 100%;
+    margin: 0 auto;
+    height: 441px;
+}
+.about{
+    margin-top: 70px;
+    padding-right: 250px;
+    padding-left: 50px;
+    margin-left: 70px;
+}
+.paragraph-about{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.members{
+    margin-top: 70px;
+    color: #ffffff;
+    margin-right: 150px;
+}
+
+
+/*Section works*/
+.section-work{
+    margin-top: 70px;
 }
 
 /*Section Trainers*/
@@ -145,7 +170,7 @@ img         { vertical-align: top;  }
 
 /*Pricing*/
 .pricing{
-    background-color: yellow;
+    background-color: rgb(255, 223,0);
 }
 
 /*footer*/
