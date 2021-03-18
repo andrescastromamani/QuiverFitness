@@ -20,9 +20,10 @@ img         { vertical-align: top;  }
 
 
 /*Header*/
+/*
 .container{
     width: 1050px;
-}
+}*/
 .navbar-brand img{
     display: flex;
     align-items: center;
@@ -74,8 +75,13 @@ img         { vertical-align: top;  }
  /*Section Icons*/
 .col-icon{
     margin: 2rem auto;
+    text-align: center;
 }
-
+.title{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 @media (min-width: 992px) {
     .col-icon{
@@ -139,8 +145,9 @@ img         { vertical-align: top;  }
 
 
 
-
+/*
 /*section about and members*/
+/*
 .section-info{
     margin-top: 17.5px;
     background-image: url(../img/about-members.png);
@@ -168,9 +175,10 @@ img         { vertical-align: top;  }
     color: #ffffff;
     margin-right: 150px;
 }
-
+*/
 
 /*Section works*/
+/*
 .section-work{
     margin-top: 75px;
     height: 750px;
@@ -185,9 +193,10 @@ img         { vertical-align: top;  }
 .section-work img{
         margin-top: 60px;
         margin-left: 40px;
-}
+}*/
 
 /*Section Trainers*/
+/*
 .trainers{
     background-color: rgb(245,245,245);
     height: 560px;
@@ -195,25 +204,29 @@ img         { vertical-align: top;  }
 .trainers .col img{
     margin-bottom: 500px;
     margin-left: 500px;
-}
+}*/
 
 /*Pricing*/
+/*
 .pricing{
     height: 495px;
     background-color: rgb(255, 223,0);
-}
+}*/
 
 
 /*Section question*/
+/*
 .section-question{
     background-color: rgb(245,245,245);
     height: 495px;
-}
+}*/
 
-/*Section Contact*/
+/*Section Contact*/ 
+/*
 .section-contact{
     height: 330px;
-}
+}*/
+
 /*footer*/
 footer{
     background-color: black;
