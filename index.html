@@ -46,9 +46,11 @@
           </ul>
         </div>
       </div>
-      <div>
-
+      <!--
+      <div class="principal-title">
+        <h1 class="title">Revolutionizing Fitness one instructional Video at a Time</h1>
       </div>
+      -->
     </nav>
   </header>
   <!--/header-->
@@ -90,9 +92,9 @@
   <!--/section Icons-->
 
   <!--SectionInfo-->
-  <section class="section-info">
-    <div class="row about-members container">
-      <div class="col about">
+  <section class="section-info container-fluid">
+    <div class="row about-members">
+      <div class="col-12 col-lg about">
         <h2 class="">About</h2>
         <p class="paragraph-about">
           Founded in 2017, Quiver Fitness helps everyone from the occasional gym-goer to the fitness enthusiast train
@@ -103,7 +105,7 @@
           make it simple for Members to browse, discover, pay, and
           start working out.</p>
       </div>
-      <div class="col members">
+      <div class="col-12 col-lg members">
         <h2>Members</h2>
         <p class="">Our catalog of high-quality instructional fitness videos is for everyone from the fitness novice to
           the experienced athlete.
@@ -120,22 +122,45 @@
     <div class="container">
       <h2 class="text-center">How it Works</h2>
       <div class="row">
-        <div class="col">
-          <p>Download the free iOS app from the App Store. Register as a new member</p>
-
-          <p>Browse by workout type and filter by difficulty level, length, muscles targeted, trainer location, and
-            lenguaje spoken</p>
-
-          <p>Preview any video for free, adding those that best fit your criteria to your Favorites</p>
+        <div class="col-12 col-lg-4 order-0 order-lg-0">
+          <div class="row">
+            <div class="col number">1</div>
+            <div class="col-10">
+              <p>Download the free iOS app from the App Store. Register as a new member</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col number">2</div>
+            <div class="col-10">
+              <p>Browse by workout type and filter by difficulty level, length, muscles targeted, trainer location, and
+                lenguaje spoken</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col number">3</div>
+            <div class="col-10">
+              <p>Preview any video for free, adding those that best fit your criteria to your Favorites</p>
+            </div>
+          </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-4 order-2 order-lg-1">
           <img src="img/phone.png" alt="phone">
         </div>
-        <div class="col">
-          <p>Purchase individual videos for $2.50 each. A one-time payment gets you unlimited views</p>
-
-          <p>Rank and review completed workouts, read more about the trainer, and recomended your Favorites to friends,
-            easily share your accomplishments on social media for extra props</p>
+        <div class="col-12 col-lg-4 order-1 order-lg-2">
+          <div class="row">
+            <div class="col number">4</div>
+            <div class="col-10">
+              <p>Purchase individual videos for $2.50 each. A one-time payment gets you unlimited views</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col number">5</div>
+            <div class="col-10">
+              <p>Rank and review completed workouts, read more about the trainer, and recomended your Favorites to
+                friends,
+                easily share your accomplishments on social media for extra props</p>
+            </div>
+          </div>  
         </div>
       </div>
     </div>
@@ -146,12 +171,22 @@
   <section class="trainers">
     <div class="container">
       <div class="row ">
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <h2 class="color-white">Trainers</h2>
-          <p>We’ve created the first platform that allows Personal</p>
+          <p>We’ve created the first platform that allows Personal Trainers to showcase their talent and get paid
+            directly for their w</p>
+          <h2>Become a Trainer</h2>
+          <p><span class=""></span>1</span> Email us at info@quiverfitness.com and tell us more about yourself and your
+            experience in the fitness industry. Please include links to relevant online conten</p>
+          <p><span class="">2</span> Once you receive your invitation to join Quiver Fitness, set up
+            a Trainer account.</p>
+          <p><span class="">3</span> Personalize your profile information with your gym or company name, website, bio,
+            location, and social media accounts.</p>
+          <p><span class="">4</span> Upload instructional video content, filling in all required fields.</p>
+          <p><span class="">5</span> Start to grow your following and your business right away.</p>
         </div>
-        <div class="col">
-          <img src="" alt="img training">
+        <div class="col-12 col-lg-6 img-training">
+          <img src="img/training.png" alt="img training">
         </div>
       </div>
     </div>
@@ -161,9 +196,9 @@
   <!--Pricing-->
   <section class="pricing">
     <div class="container">
-      <h3>Pricing</h3>
-      <div class="row mt-4">
-        <div class="col">
+      <h3 class="text-center">Pricing</h3>
+      <div class="row">
+        <div class="col-12 col-lg-4  card">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
@@ -172,7 +207,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-4 card">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
@@ -181,7 +216,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-4 card">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
@@ -196,11 +231,49 @@
   <!--Pricing-->
 
   <!--Section Question-->
-  <section class="section-question">
+  <section class="question">
     <div class="container">
       <div class="row">
         <h2 class="text-center">Frecuently Asqued Question</h2>
         <div class="col">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
 
         </div>
       </div>
@@ -211,31 +284,32 @@
   <!--section contact-->
   <section class="section-contact">
     <div class="container">
-      <div class="row p-5">
-        <div class="col">
-          <h3>Contact</h3>
+      <div class="row">
+        <div class="col-12 col-lg-6 p-3">
+          <h3 class="contact">Contact</h3>
           <p>We want to hear from you! Whether you’ve got more questions,
             are interested in becoming a Trainer, or want to say hello, send us
             an email at info@quiverfitness.com or follow us on Facebook,
             Instagram, and Twitter: @quiverfitness.</p>
         </div>
-        <div class="col text-center">
-          <button type="button" class="btn btn-warning">Warning</button>
+        <div class="col-12 col-lg-6 p-3 text-center">
+          <button class="col-12 col-lg-6 btn btn-warning">Warning</button>
         </div>
       </div>
     </div>
   </section>
   <!--/section contact-->
+
   <!--Footer-->
-  <footer class="p-2">
+  <footer class="footer">
     <div class="container">
-      <div class="row ">
-        <div class="col">
+      <div class="row">
+        <div class="col-12 col-lg-6 logo-footer ">
           <a href="#">
             <img src="img/logo-header.png" alt="logo-header">
           </a>
         </div>
-        <div class="col socialMedia">
+        <div class="col-12 col-lg-6  socialMedia ">
           <a href="#">Follow us @quiverfitness</a>
           <a href="#"><i class="fab fa-facebook-square"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>

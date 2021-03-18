@@ -17,7 +17,16 @@ a:hover     { text-decoration: underline;  }
 img         { vertical-align: top;  }
 
 /*Styles Gral*/
-
+.number{
+    background-color: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 30px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*Header*/
 /*
@@ -34,19 +43,27 @@ img         { vertical-align: top;  }
 } 
 @media (min-width: 992px) {
     .site-header{
-        background-image: url(../img/img-header.png);
+        background-image: url(../img/header.png );
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         width: 100%;
         height: 570px;
+        position: relative;
     }    
     .header{
         background-color: transparent;
     } 
     .navbar-nav li{
         margin-left: 5rem;
-    } 
+    } /*
+    .title{
+        color: #ffffff!important;
+    }
+    .principal-title{
+        color: #ffffff!important;
+        position: absolute;
+    }*/
 }
 .nav-link{
     color: #ffffff!important;
@@ -74,8 +91,11 @@ img         { vertical-align: top;  }
 
  /*Section Icons*/
 .col-icon{
-    margin: 2rem auto;
+    margin-top: 2rem;
     text-align: center;
+}
+.col-icon:last-of-type{
+    margin-bottom: 2rem;
 }
 .title{
     color: black;
@@ -145,10 +165,23 @@ img         { vertical-align: top;  }
 
 
 
-/*
 /*section about and members*/
-/*
-.section-info{
+
+.about-members{
+    text-align: center;
+}
+.about{
+    background-color: #ffdf00;
+    padding: 3rem;
+}
+.members{
+    background-image: url(../img/background-members.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+    color: #ffffff;
+}
+/*.section-info{
     margin-top: 17.5px;
     background-image: url(../img/about-members.png);
     background-position: center center;
@@ -159,43 +192,65 @@ img         { vertical-align: top;  }
     width: 100%;
     margin: 0 auto;
     height: 441px;
-}
-.about{
-    margin-top: 70px;
-    padding-right: 250px;
-    padding-left: 50px;
-    margin-left: 70px;
-}
-.paragraph-about{
-    font-size: 15px;
-    margin-right: 10px;
-}
-.members{
-    margin-top: 70px;
-    color: #ffffff;
-    margin-right: 150px;
-}
-*/
-
-/*Section works*/
+}*/
 /*
-.section-work{
-    margin-top: 75px;
-    height: 750px;
-}
-.section-work h2{
-    font-size: 20px;
-}
-.section-work p{
-    margin-top: 125px;
-    margin-left: 50px;
-}
-.section-work img{
-        margin-top: 60px;
-        margin-left: 40px;
+@media (min-width: 992px) {
+    .about{
+        margin-top: 70px;
+        padding-right: 250px;
+        padding-left: 50px;
+        margin-left: 70px;
+    }
+    .paragraph-about{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .members{
+        margin-top: 70px;
+        color: #ffffff;
+        margin-right: 150px;
+    }
 }*/
 
+
+/*Section works*/
+.section-work{
+    padding: 2rem;
+}
+.section-work .row{
+    text-align: center;
+    margin: 1rem 0;
+}
+@media (min-width: 992px) {
+    .section-work .row{
+        text-align: justify;
+    }
+    .section-work{
+        margin-top: 75px;
+        height: 750px;
+    }
+    .section-work h2{
+        font-size: 20px;
+    }
+    .section-work p{
+        margin-top: 125px;
+        margin-left: 50px;
+    }
+    .section-work img{
+            margin-top: 60px;
+            margin-left: 40px;
+    }    
+}
+
+
 /*Section Trainers*/
+.img-training img{
+    max-width: 100%;
+}
+.trainers{
+    background-color: rgb(245, 245, 245);
+    padding: 2rem;
+}
 /*
 .trainers{
     background-color: rgb(245,245,245);
@@ -207,6 +262,13 @@ img         { vertical-align: top;  }
 }*/
 
 /*Pricing*/
+.pricing{
+    padding: 2rem;
+    background-color: rgb(255, 223,0);
+}
+.card{
+    margin-top: 2rem;
+}
 /*
 .pricing{
     height: 495px;
@@ -215,6 +277,10 @@ img         { vertical-align: top;  }
 
 
 /*Section question*/
+.question{
+    padding: 2rem;
+    background-color: rgb(245, 245, 245);
+}
 /*
 .section-question{
     background-color: rgb(245,245,245);
@@ -222,15 +288,23 @@ img         { vertical-align: top;  }
 }*/
 
 /*Section Contact*/ 
+.contact{
+    text-align: center;
+}
 /*
 .section-contact{
     height: 330px;
 }*/
 
 /*footer*/
-footer{
+.footer{
     background-color: black;
-    height: 70px;
-    align-items: center;
 }
-
+footer .row{
+    align-items: center;
+    padding: 2rem 0;
+}
+.logo-footer, .socialMedia{
+    text-align: center;
+    padding: 1rem;
+}
