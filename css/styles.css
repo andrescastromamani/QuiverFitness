@@ -57,7 +57,7 @@ a:hover     { text-decoration: underline;  }
 .txt13px    {  font-size: 13px; }
 img         { vertical-align: top;  }
 
-/*Styles Gral*/
+/*Gral Styles*/
 .number{
     background-color: black;
     border-radius: 50%;
@@ -310,7 +310,7 @@ img         { vertical-align: top;  }
     background-color: rgb(255, 223,0);
 }
 .card{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 /*
 .pricing{
