@@ -58,6 +58,10 @@ a:hover     { text-decoration: underline;  }
 img         { vertical-align: top;  }
 
 /*GRAL STYLES*/
+.title-section{
+    text-align: center;
+    margin-bottom: 2rem;
+}
 .number{
     background-color: black;
     border-radius: 50%;
@@ -319,8 +323,11 @@ img         { vertical-align: top;  }
     padding: 2rem;
     background-color: rgb(255, 223,0);
 }
-.card{
-    margin-top: 3rem;
+
+.card-pricing{
+    margin-bottom: 2rem;
+    padding: 3rem;
+    text-align: center;
 }
 /*
 .pricing{
@@ -341,8 +348,14 @@ img         { vertical-align: top;  }
 }*/
 
 /*Section Contact*/ 
+.section-contact{
+    padding: 2rem;
+}
 .contact{
     text-align: center;
+}
+.btn-fitness{
+    background-color: rgb(255, 223,0);
 }
 /*
 .section-contact{
