@@ -81,7 +81,7 @@ img         { vertical-align: top;  }
     background-color: black;
     padding: 2rem 0;
 } 
-@media (min-width: 992px) {
+@media (min-width: 992px){
     .site-header{
         background-image: url(../img/header.png );
         background-repeat: no-repeat;
@@ -259,7 +259,9 @@ img         { vertical-align: top;  }
 }
 .section-work .row{
     text-align: center;
-    margin: 1rem 0;
+}
+.title-work{
+    margin-bottom: 2rem;
 }
 @media (min-width: 992px) {
     .section-work .row{
@@ -272,20 +274,22 @@ img         { vertical-align: top;  }
     .section-work h2{
         font-size: 20px;
     }
-    .section-work p{
-        margin-top: 125px;
-        margin-left: 50px;
-    }
+    
     .section-work img{
             margin-top: 60px;
             margin-left: 40px;
     }    
 }
-
+.row-work{
+    justify-content: center;
+}
 .phone{
     max-width: 100%;
 }
-
+.paragraph-work{
+    text-align: justify;
+    padding: 0 1rem;
+}
 /*Section Trainers*/
 .img-training img{
     max-width: 100%;
@@ -294,6 +298,8 @@ img         { vertical-align: top;  }
     background-color: rgb(245, 245, 245);
     padding: 2rem;
 }
+
+
 /*
 .trainers{
     background-color: rgb(245,245,245);
