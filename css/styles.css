@@ -57,7 +57,7 @@ a:hover     { text-decoration: underline;  }
 .txt13px    {  font-size: 13px; }
 img         { vertical-align: top;  }
 
-/*Gral Styles*/
+/*GRAL STYLES*/
 .number{
     background-color: black;
     border-radius: 50%;
@@ -68,7 +68,10 @@ img         { vertical-align: top;  }
     justify-content: center;
 }
 
-/*Header*/
+.paragraph-center{
+    text-align: center;
+}
+/*HEADER*/
 /*
 .container{
     width: 1050px;
@@ -129,7 +132,7 @@ img         { vertical-align: top;  }
     }    
 }
 
- /*Section Icons*/
+ /*SECTION ICONS*/
 .col-icon{
     margin-top: 2rem;
     text-align: center;
@@ -142,7 +145,6 @@ img         { vertical-align: top;  }
     font-weight: bold;
     font-size: 20px;
 }
-
 @media (min-width: 992px) {
     .col-icon{
         margin-top: 67.2px;
@@ -205,7 +207,7 @@ img         { vertical-align: top;  }
 
 
 
-/*section about and members*/
+/*SECTION ABOUT MEMBERS*/
 
 .about-members{
     text-align: center;
@@ -221,13 +223,7 @@ img         { vertical-align: top;  }
     padding: 3rem;
     color: #ffffff;
 }
-/*.section-info{
-    margin-top: 17.5px;
-    background-image: url(../img/about-members.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*
 .about-members{
     width: 100%;
     margin: 0 auto;
@@ -262,6 +258,7 @@ img         { vertical-align: top;  }
 }
 .title-work{
     margin-bottom: 2rem;
+    text-align: center;
 }
 @media (min-width: 992px) {
     .section-work .row{
@@ -285,11 +282,15 @@ img         { vertical-align: top;  }
 }
 .phone{
     max-width: 100%;
+    margin-top: 1rem;
 }
 .paragraph-work{
-    text-align: justify;
-    padding: 0 1rem;
+    text-align: start;
+    margin-left: 1rem;
+    margin-right: 0;
 }
+
+
 /*Section Trainers*/
 .img-training img{
     max-width: 100%;
@@ -298,7 +299,10 @@ img         { vertical-align: top;  }
     background-color: rgb(245, 245, 245);
     padding: 2rem;
 }
-
+.title-trainers{
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 /*
 .trainers{
