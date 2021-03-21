@@ -238,15 +238,21 @@ img         { vertical-align: top;  }
 }
 .about{
     background-color: #ffdf00;
-    padding: 3rem;
+    padding: 2rem;
 }
 .members{
     background-image: url(../img/background-members.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3rem;
+    padding: 2rem;
     color: #ffffff;
 }
+@media (min-width: 768px) {
+    .paragraph-about-members{
+        text-align: start;
+    }    
+}
+
 /*
 .about-members{
     width: 100%;
