@@ -399,18 +399,26 @@ img         { vertical-align: top;  }
 .section-contact{
     padding: 2rem;
 }
-.contact{
+.col-contact:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.title-contact{
     text-align: center;
+}
+@media (min-width: 768px) {
+    .title-contact{
+        text-align: start;
+    }    
 }
 .btn-fitness{
     background-color: rgb(255, 223,0);
+    display: flex;
+    align-items: center;
 }
-/*
-.section-contact{
-    height: 330px;
-}*/
 
-/*footer*/
+/*FOOTER*/
 .footer{
     background-color: black;
 }
