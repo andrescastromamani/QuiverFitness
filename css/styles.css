@@ -299,9 +299,6 @@ img         { vertical-align: top;  }
 .row-work .col-10{
     padding-right: 0;
 }
-.row-work .col-10 p{
-    padding-right: 0;
-}
 @media (min-width: 768px) {
     .phone{
         max-width: 100%;
@@ -344,14 +341,16 @@ img         { vertical-align: top;  }
 }
 
 
-/*Section Trainers*/
-.img-training img{
-    max-width: 100%;
-}
+/*SECTION TRAINERS*/
 .trainers{
     background-color: rgb(245, 245, 245);
     padding: 2rem;
 }
+
+.img-training img{
+    max-width: 100%;
+}
+
 .title-trainers{
     text-align: center;
     margin-bottom: 1rem;
@@ -367,7 +366,7 @@ img         { vertical-align: top;  }
     margin-left: 500px;
 }*/
 
-/*Pricing*/
+/*PRICING*/
 .pricing{
     padding: 2rem;
     background-color: rgb(255, 223,0);
@@ -377,6 +376,9 @@ img         { vertical-align: top;  }
     margin-bottom: 2rem;
     padding: 3rem;
     text-align: center;
+}
+.paragraph-pricing{
+    margin-bottom: 2rem;
 }
 /*
 .pricing{
