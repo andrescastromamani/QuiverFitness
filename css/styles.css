@@ -380,25 +380,22 @@ img         { vertical-align: top;  }
 .paragraph-pricing{
     margin-bottom: 2rem;
 }
-/*
-.pricing{
-    height: 495px;
-    background-color: rgb(255, 223,0);
-}*/
 
 
-/*Section question*/
+/*SECTION QUESTION*/
 .question{
     padding: 2rem;
     background-color: rgb(245, 245, 245);
 }
-/*
-.section-question{
-    background-color: rgb(245,245,245);
-    height: 495px;
-}*/
+.col-question{
+    padding: 0;
+}
+.item-question{
+    margin: 1rem;
+    border: 1px solid;
+}
 
-/*Section Contact*/ 
+/*SECTION CONTACT*/ 
 .section-contact{
     padding: 2rem;
 }
