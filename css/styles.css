@@ -399,11 +399,6 @@ img         { vertical-align: top;  }
 .section-contact{
     padding: 2rem;
 }
-.col-contact:last-of-type{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
 .title-contact{
     text-align: center;
 }
@@ -411,6 +406,11 @@ img         { vertical-align: top;  }
     .title-contact{
         text-align: start;
     }    
+    .col-contact:last-of-type{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
 }
 .btn-fitness{
     background-color: rgb(255, 223,0);
@@ -421,12 +421,21 @@ img         { vertical-align: top;  }
 /*FOOTER*/
 .footer{
     background-color: black;
+    padding: 2rem;
 }
-footer .row{
+.footer .row{
     align-items: center;
-    padding: 2rem 0;
 }
+
 .logo-footer, .socialMedia{
-    text-align: center;
-    padding: 1rem;
+    text-align: center; 
+}
+
+@media (min-width: 768px) {
+    .footer .row .logo-footer{
+        text-align: start;
+    }
+    .footer .row .socialMedia{
+        text-align: end;
+    }
 }
