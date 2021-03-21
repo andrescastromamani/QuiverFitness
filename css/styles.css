@@ -125,14 +125,7 @@ img         { vertical-align: top;  }
     } 
     .navbar-nav li{
         margin-left: 5rem;
-    } /*
-    .title{
-        color: #ffffff!important;
     }
-    .principal-title{
-        color: #ffffff!important;
-        position: absolute;
-    }*/
 }
 .nav-link{
     color: #ffffff!important;
@@ -170,6 +163,14 @@ img         { vertical-align: top;  }
     color: black;
     font-weight: bold;
     font-size: 20px;
+}
+.paragraph-icon{
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .icons{
+        margin: 1rem 0;
+    }
 }
 @media (min-width: 992px) {
     .col-icon{
@@ -231,10 +232,7 @@ img         { vertical-align: top;  }
     }
 }
 
-
-
 /*SECTION ABOUT MEMBERS*/
-
 .about-members{
     text-align: center;
 }
