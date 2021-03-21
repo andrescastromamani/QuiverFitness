@@ -279,7 +279,7 @@ img         { vertical-align: top;  }
 }*/
 
 
-/*Section works*/
+/*SECTION WORKS*/
 .section-work{
     padding: 2rem;
 }
@@ -289,6 +289,24 @@ img         { vertical-align: top;  }
 .title-work{
     margin-bottom: 2rem;
     text-align: center;
+}
+.section-work .container{
+    padding: 0;
+}
+.col-work{
+    padding: 0;
+}
+.row-work .col-10{
+    padding-right: 0;
+}
+.row-work .col-10 p{
+    padding-right: 0;
+}
+@media (min-width: 768px) {
+    .phone{
+        max-width: 100%;
+        margin-top: 0rem;
+    }
 }
 @media (min-width: 992px) {
     .section-work .row{
@@ -312,7 +330,6 @@ img         { vertical-align: top;  }
 }
 .phone{
     max-width: 100%;
-    margin-top: 1rem;
 }
 .paragraph-work{
     text-align: start;
