@@ -185,6 +185,26 @@ img         { vertical-align: top;  }
     .section-icons{
         height: 337px;
     }
+    .col-icon{
+        margin-top: 53px;
+    }
+    .col-icon:first-of-type{
+        padding-left: 137px;
+    }
+    .col-icon:last-of-type{
+        padding-right: 135px;
+    }
+    .icon-app, .icon-browse, .icon-crush{
+        margin-bottom: 35px;
+    }
+    .paragraph-app, .paragraph-browse, .paragraph-crush{
+        margin-top: 15px;
+        padding: 0 50px;
+    }
+    .paragraph-icon{
+        font-size: 14px;
+        padding: 0 2rem;
+    }
 }
 /*
 @media (min-width: 992px) {
