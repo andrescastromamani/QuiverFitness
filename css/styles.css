@@ -303,7 +303,28 @@ img         { vertical-align: top;  }
 @media (min-width: 992px) {
     .section-work{
         height: 823px;
+        padding: 78px;
     } 
+    .title-work{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 1px;
+    }
+    .col-work:first-of-type{
+        padding-left: 135px;
+        padding-top: 85px;
+    }
+    .col-work:last-of-type{
+        padding-left: 15px;
+        padding-top: 85px;
+        padding-right: 100px;
+    }
+    .col-work img{
+        padding-top: 30px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
 }
 
 
