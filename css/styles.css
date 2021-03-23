@@ -286,7 +286,7 @@ img         { vertical-align: top;  }
     .about h2{
         text-align: start;
         font-size: 17px;
-        font-weight: bold;
+        font-family: 'SFProDisplay-Bold';
         margin-bottom: 28px;
     }
 
@@ -298,8 +298,20 @@ img         { vertical-align: top;  }
     .members h2{
         text-align: start;
         font-size: 17px;
-        font-weight: bold;
-        margin-bottom: 28px;
+        font-family: 'SFProDisplay-Bold';
+        margin-bottom: 31px;
+    }
+    .paragraph-about-members{
+        font-family: 'SFProDisplay-Light';
+    }
+    .about .paragraph-about-members{
+        padding-right: 31px;
+        font-size: 17px;
+        margin-left: 1px;
+    }
+    .members .paragraph-about-members{
+        padding-right: 9px;
+        font-size: 16px;
     }
 }
 
