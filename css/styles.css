@@ -1,6 +1,5 @@
 @font-face {
 	font-family: 'SFProDisplay-Light';
-	src:url('../fonts/SF-Pro-Display-Bold.eot?-fvbane');
 	src:url('../fonts/light/SFProDisplay-Light.eot') format('embedded-opentype'),
 		url('../fonts/light/SFProDisplay-Light.woff') format('woff'),
 		url('../fonts/light/SFProDisplay-Light.woff2') format('woff2'),
@@ -10,8 +9,7 @@
 }
 @font-face {
 	font-family: 'SFProDisplay-Regular';
-	src:url('../fonts/SF-Pro-Display-Bold.eot?-fvbane');
-	src:url('../fonts/regular/SFProDisplay-Regular.eot?#iefix-fvbane') format('embedded-opentype'),
+	src:url('../fonts/regular/SFProDisplay-Regular.eot') format('embedded-opentype'),
 		url('../fonts/regular/SFProDisplay-Regular.woff') format('woff'),
 		url('../fonts/regular/SFProDisplay-Regular.woff2') format('woff2'),
 		url('../fonts/regular/SFProDisplay-Regular.svg') format('svg');
@@ -20,21 +18,19 @@
 }
 @font-face {
 	font-family: 'SFProDisplay-Medium';
-	src:url('../fonts/SF-Pro-Display-Bold.eot?-fvbane');
-	src:url('../fonts/SF-Pro-Display-Bold.eot?#iefix-fvbane') format('embedded-opentype'),
-		url('../fonts/SF-Pro-Display-Bold.woff?-fvbane') format('woff'),
-		url('../fonts/SF-Pro-Display-Bold.ttf?-fvbane') format('truetype'),
-		url('../fonts/SF-Pro-Display-Bold.svg?-fvbane#themify') format('svg');
+	src:url('../fonts/medium/SFProDisplay-Medium.eot') format('embedded-opentype'),
+		url('../fonts/medium/SFProDisplay-Medium.woff') format('woff'),
+		url('../fonts/medium/SFProDisplay-Medium.woff2') format('woff2'),
+		url('../fonts/medium/SFProDisplay-Medium.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'SFProDisplay-Bold';
-	src:url('../fonts/SF-Pro-Display-Bold.eot?-fvbane');
-	src:url('../fonts/SF-Pro-Display-Bold.eot?#iefix-fvbane') format('embedded-opentype'),
-		url('../fonts/SF-Pro-Display-Bold.woff?-fvbane') format('woff'),
-		url('../fonts/SF-Pro-Display-Bold.ttf?-fvbane') format('truetype'),
-		url('../fonts/SF-Pro-Display-Bold.svg?-fvbane#themify') format('svg');
+	src:url('../fonts/bolt/SFProDisplay-Bold.eot') format('embedded-opentype'),
+		url('../fonts/bolt/SFProDisplay-Bold.woff') format('woff'),
+		url('../fonts/bolt/SFProDisplay-Bold.woff2') format('woff2'),
+		url('../fonts/bolt/SFProDisplay-Bold.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -102,10 +98,13 @@ img         { vertical-align: top;  }
     padding: 2rem 0;
 } 
 .nav-link{
-    color: #ffffff!important;
+    color: rgb(245, 245, 245)!important;
 }
 .nav-item a{
     text-align: start;
+}
+.link1 a, .link2 a, .link3 a, .link4 a, .link5 a{
+    font-family: 'SFProDisplay-Regular';
 }
 @media (min-width: 768px) {
     .text-header{
@@ -149,14 +148,43 @@ img         { vertical-align: top;  }
     .link4{
         margin-right: 108px;
     }
+    .link4 a{
+        margin-right: 1px;
+        font-size: 17px;
+    }
     .link3{
         margin-right: 105px;
+    }
+    .link3 a{
+        margin-right: 3px;
+        font-size: 17px;
+        margin-top: 1px;
     }
     .link2{
         margin-right: 95px;
     }
+    .link2 a{
+        margin-right: -6px;
+        font-size: 17px;
+        margin-top: 1px;
+    }
     .link1{
         margin-right: 95px;
+    }
+    .link1 a{
+        margin-right: 0px;
+        margin-top: 1px;
+        font-size: 17px;
+    }
+    .link5 a{
+        margin-top: 2px;
+        font-size: 17px;
+        margin-right: -5px;
+    }
+    .logo-header{
+        margin-left: 0px;
+        width: 160px;
+        margin-top: 1px;
     }
 }
 
@@ -519,7 +547,7 @@ img         { vertical-align: top;  }
         margin-bottom: 28px;
     }
     .section-contact .container .row{
-        margin-left: 110px;
+        margin-left: 123px;
         margin-top: 36px;
     }
     .col-contact{
@@ -527,7 +555,7 @@ img         { vertical-align: top;  }
     }
     .col-contact .btn-fitness{
         width: 193px;
-        margin-right: 35px;
+        margin-right: 22px;
         margin-bottom: 34px;
         height: 42px;
         font-size: 13px;
@@ -547,6 +575,9 @@ img         { vertical-align: top;  }
 .logo-footer, .socialMedia{
     text-align: center; 
 }
+.follow{
+    font-family: 'SFProDisplay-Regular';
+}
 
 @media (min-width: 768px) {
     .footer .row .logo-footer{
@@ -554,5 +585,38 @@ img         { vertical-align: top;  }
     }
     .footer .row .socialMedia{
         text-align: end;
+    }
+    .footer .container .row{
+        margin-left: 119px;
+        margin-right: 120px;
+    }
+    .footer{
+        background-color: black;
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+    .img-footer{
+        width: 102px;
+        margin-top: 5px;
+    }
+    .fa-twitter{
+        font-size: 21px;
+        color: #ffffff;
+        margin-top: 2px;
+    }
+    .fa-instagram{
+        font-size: 21px;
+        margin-right: 29px;
+        color: white;
+    }
+    .fa-facebook-square{
+        font-size: 21px;
+        margin-right: 32px;
+        color: white;
+    }
+    .follow{
+        font-size: 12px;
+        margin-right: 40px;
+        color: white;
     }
 }
