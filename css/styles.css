@@ -462,8 +462,19 @@ img         { vertical-align: top;  }
 .title-trainers{
     text-align: center;
     margin-bottom: 1rem;
+    font-family: 'SFProDisplay-Bold';
 }
-
+.title-become{
+    font-family: 'SFProDisplay-Bold';
+}
+.paragraph-trainers{
+    font-family: 'SFProDisplay-Light';
+}
+.correo{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
 @media (min-width: 992px) {
     .trainers{
         height: 565px;
@@ -471,11 +482,70 @@ img         { vertical-align: top;  }
     }
     .title-trainers{
         text-align: start;
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 21px;
+        margin-left: 8px;
+    }
+    .paragraph-trainers{
+        margin-top: 24px;
+        margin-left: 9px;
+        font-size: 16px;
+    }
+    .title-become{
+        font-size: 17px;
+        margin-top: 36px;
+        margin-left: 6px;
     }
     .col-trainers{
         padding-top: 20px;
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .col-trainers .number{
+        margin-top: 19px;
+        margin-left: 15px;
+    }
+    .col-trainers .number-two, .col-trainers .number-three{
+        margin-top: -6px;
+    }
+    .col-trainers .number-four, .col-trainers .number-five{
+        margin-top: 9px;
+    }
+    .col-one{
+        padding: 0;
+        margin-left: 30px;
+        margin-top: 17px;
+        font-size: 13.3px;
+        line-height: 23px;
+    }
+    .col-two{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 29px;
+        margin-top: -6px;
+        font-size: 13.2px;
+        line-height: 23px;
+    }
+    .col-three{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -9px;
+        margin-left: 29px;
+        font-size: 13.1px;
+        line-height: 24px;
+    }
+    .col-four{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 30px;
+        margin-top: 8px;
+        font-size: 13.1px;
+    }
+    .col-five{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 30px;
+        margin-top: 11px;
+        font-size: 13.1px;
     }
     .trainers .row{
         position: relative;
@@ -485,9 +555,6 @@ img         { vertical-align: top;  }
         bottom: 90px;
         left: 90px;
         width: 760px;
-    }
-    .paragraph-trainers{
-        font-size: 13px;
     }
 }
 
@@ -577,7 +644,7 @@ img         { vertical-align: top;  }
         margin-left: 34px;
         border: 2px solid;
         margin-top: 1px;
-        height: 41px;
+        height: 42px;
         padding: 7px;
     }
     .btn-members p{
@@ -594,7 +661,6 @@ img         { vertical-align: top;  }
     .btn-basic p{
         font-size: 13px;
         margin-top: 4px;
-    }
     }
     .card-pricing .btn-plus{
         width: 125px;
@@ -613,6 +679,9 @@ img         { vertical-align: top;  }
     padding: 2rem;
     background-color: rgb(245, 245, 245);
 }
+.question .title-section, .accordion-header .accordion-button{
+    font-family: 'SFProDisplay-Bold';
+}
 .col-question{
     padding: 0;
 }
@@ -628,13 +697,11 @@ img         { vertical-align: top;  }
     }
     .question .container .title-section{
         font-size: 21px;
-        font-weight: bold;
         margin-top: 25px;
         margin-bottom: 45px;
     }
     .accordion-header .accordion-button{
         padding-top: 10px;
-        font-weight: bold;
     }
     .question .container{
         margin-bottom: 51px;
