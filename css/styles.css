@@ -740,6 +740,12 @@ img         { vertical-align: top;  }
 .title-contact{
     text-align: center;
 }
+.col-contact h2{
+    font-family: 'SFProDisplay-Bold';
+}
+.col-contact p{
+    font-family: 'SFProDisplay-Regular';
+}
 @media (min-width: 768px) {
     .title-contact{
         text-align: start;
@@ -777,6 +783,13 @@ img         { vertical-align: top;  }
         height: 42px;
         font-size: 13px;
         font-weight: bold;
+    }
+    .col-contact p{
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .col-contact h2{
+        margin-left: -2px;
     }
 }
 
@@ -832,8 +845,8 @@ img         { vertical-align: top;  }
         color: white;
     }
     .follow{
-        font-size: 12px;
-        margin-right: 40px;
+        font-size: 12.3px;
+        margin-right: 43px;
         color: white;
     }
 }
