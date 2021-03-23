@@ -483,6 +483,9 @@ img         { vertical-align: top;  }
         padding-top: 10px;
         font-weight: bold;
     }
+    .question .container{
+        margin-bottom: 51px;
+    }
 }
 
 /*SECTION CONTACT*/ 
@@ -509,6 +512,26 @@ img         { vertical-align: top;  }
 @media (min-width: 992px) {
     .section-contact{
         height: 330px;
+    }
+    .title-contact{
+        font-size: 21px;
+        font-weight: bold;
+        margin-bottom: 28px;
+    }
+    .section-contact .container .row{
+        margin-left: 110px;
+        margin-top: 36px;
+    }
+    .col-contact{
+        padding-right: 122px;
+    }
+    .col-contact .btn-fitness{
+        width: 193px;
+        margin-right: 35px;
+        margin-bottom: 34px;
+        height: 42px;
+        font-size: 13px;
+        font-weight: bold;
     }
 }
 
