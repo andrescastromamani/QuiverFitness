@@ -496,7 +496,12 @@ img         { vertical-align: top;  }
     padding: 2rem;
     background-color: rgb(255, 223,0);
 }
-
+.pricing-members{
+    font-family: 'SFProDisplay-Bold';
+}
+.pricing .title-section, .price, .btn-members,.btn-basic,.btn-plus{
+    font-family: 'SFProDisplay-Bold';
+}
 .card-pricing{
     margin-bottom: 2rem;
     padding: 3rem;
@@ -504,6 +509,8 @@ img         { vertical-align: top;  }
 }
 .paragraph-pricing{
     margin-bottom: 2rem;
+    font-family: 'SFProDisplay-Light';
+    line-height: 22px;
 }
 
 @media (min-width: 992px) {
@@ -515,12 +522,13 @@ img         { vertical-align: top;  }
     }
     .pricing .title-section{
         text-align: start;
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 21px;
+        margin-top: 2px;
+        margin-left: 0px;
+        margin-bottom: 29px;
     }
     .pricing-members{
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 21px;
         margin-top: 2px;
         margin-left: 3px;
         margin-bottom: 5px;
@@ -532,7 +540,7 @@ img         { vertical-align: top;  }
         padding-top: 30px;
     }  
     .card-pricing .price{
-        font-size: 14px;
+        font-size: 13px;
         font-weight: bold;
         color: gray;
         margin-bottom: 0;
@@ -546,6 +554,12 @@ img         { vertical-align: top;  }
     .col-plus{
         padding-left: 30px;
     }
+    .paragraph-pricing{
+        margin-top: 3px;
+        font-size: 17px;
+        margin-left: 3px;
+    }
+
     .paragraph-pricing:first-of-type{
         margin-bottom: 34px;
         padding: 5px 24px;
@@ -562,17 +576,35 @@ img         { vertical-align: top;  }
         width: 125px;
         margin-left: 34px;
         border: 2px solid;
+        margin-top: 1px;
+        height: 41px;
+        padding: 7px;
+    }
+    .btn-members p{
+        font-size: 13px;
+        margin-top: 3px;
     }
     .card-pricing .btn-basic{
         width: 125px;
         margin-top: 23px;
         margin-left: 38px;
         border: 2px solid;
+        height: 42px;
+    }
+    .btn-basic p{
+        font-size: 13px;
+        margin-top: 4px;
+    }
     }
     .card-pricing .btn-plus{
         width: 125px;
         margin-left: 47px;
         border: 2px solid;
+        height: 43px;
+    }
+    .btn-plus p{
+        font-size: 13px;
+        margin-top: 5px;
     }
 }
 
