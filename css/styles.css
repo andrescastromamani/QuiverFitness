@@ -223,6 +223,9 @@ img         { vertical-align: top;  }
     padding: 3rem;
     text-align: center;
 }
+.card-pricing .price{
+    color: gray;
+}
 .paragraph-pricing{
     margin-bottom: 2rem;
     font-family: 'SFProDisplay-Light';
@@ -231,6 +234,7 @@ img         { vertical-align: top;  }
 .card-pricing .btn p {
     margin-bottom: 0;
 }
+
 /*SECTION QUESTION*/
 .question{
     padding: 2rem;
@@ -251,6 +255,58 @@ img         { vertical-align: top;  }
 .item-4{
     margin-bottom: 0;
 }
+.accordion{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.accordion__label, .accordion__content{
+    padding: 14px 20px;
+}
+.accordion__label{
+    display: block;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.1s;
+    font-family: 'SFProDisplay-Medium' ;
+    padding-right: 35px;
+}
+.accordion__label:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.accordion__content{
+    background: white;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+.accordion__input{
+    display: none;
+}
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+.accordion label::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #000000;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    z-index: 10;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
 
 /*SECTION CONTACT*/ 
 .section-contact{

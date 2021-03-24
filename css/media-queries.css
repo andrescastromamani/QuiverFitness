@@ -39,6 +39,12 @@
     .item-4{
         margin-bottom: 11px;
     }
+
+    .accordion{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
     /*Contact*/
     .title-contact{
         text-align: start;
@@ -398,6 +404,9 @@
         width: 295px;
         padding-top: 30px;
     }  
+    .card-pricing hr{
+        margin-top: 16px;
+    }
     .card-pricing .price{
         font-size: 13px;
         font-weight: bold;
@@ -417,24 +426,24 @@
         margin-top: 3px;
         font-size: 17px;
         margin-left: 3px;
+        margin-bottom: 0;
     }
     .paragraph-pricing:first-of-type{
-        margin-bottom: 34px;
+
         padding: 5px 24px;
     }
     .col-basic .card-pricing .paragraph-pricing{
-        margin-bottom: 34px;
         padding: 5px 10px;
     }
     .paragraph-pricing:last-of-type{
-        margin-bottom: 34px;
+
         padding: 5px 20px;
     }
     .card-pricing .btn-members{
         width: 125px;
         margin-left: 34px;
         border: 2px solid;
-        margin-top: 1px;
+        margin-top: 36px;
         height: 42px;
         padding: 7px;
     }
@@ -444,7 +453,7 @@
     }
     .card-pricing .btn-basic{
         width: 125px;
-        margin-top: 23px;
+        margin-top: 59px;
         margin-left: 38px;
         border: 2px solid;
         height: 42px;
@@ -458,6 +467,7 @@
         margin-left: 47px;
         border: 2px solid;
         height: 43px;
+        margin-top: 36px;
     }
     .btn-plus p{
         font-size: 13px;
@@ -465,6 +475,45 @@
     }
 
     /*Question*/
+    .question{
+        height: 490px;
+    }
+    .accordion-one{
+        margin-top: 11px;
+        width: 500px;
+        margin-left: 11px;
+    }
+    .accordion-two{
+        margin-left: 11px;
+        width: 502px;
+    }
+    .accordion-three{
+        margin-left: 10px;
+        width: 502px;
+    }
+    .accordion-four{
+        margin-left: 10px;
+        width: 504px;
+    }
+    .accordion-five{
+        margin-left: 10px;
+        margin-top: 11px;
+        width: 503px;
+    }
+    .accordion-six{
+        margin-left: 10px;
+        width: 505px;
+    }
+    .accordion-seven{
+        margin-left: 10px;
+        width: 503px;
+    }
+    .accordion .accordion__label{
+        padding-right: 38px;
+    }
+    .accordion__label{
+        margin-top: -8px;
+    }
     .question .row{
         margin: 0 125px;
     }
@@ -478,32 +527,6 @@
     }
     .question .container{
         margin-bottom: 51px;
-    }
-    .item-1{
-        margin-left: 9px;   
-    }
-    .item-2{
-        margin-top: 17px;
-        margin-left: 9px;
-    }
-    .item-3{
-        margin-top: 16px;
-        margin-left: 9px;
-    }
-    .item-4{
-        margin-top: 17px;
-        margin-left: 9px;
-    }
-    .item-5{
-        margin-right: 8px;
-    }
-    .item-6{
-        margin-top: 17px;
-        margin-right: 8px;
-    }
-    .item-7{
-        margin-top: 17px;
-        margin-right: 8px;
     }
 
     /*Contact*/
@@ -579,6 +602,7 @@
 }
 
 @media (max-width: 992px) {
+    /*Header*/
     .header{
         background-color: black;
         padding: 2rem 0;
