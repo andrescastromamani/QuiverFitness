@@ -58,6 +58,9 @@
 }
 @media (min-width: 992px) {
     /*Header*/
+    .header{
+        background-color: transparent;
+    } 
     .text-header{
         margin-top: 82px;
         color: #ffffff;
@@ -575,22 +578,18 @@
     }
 }
 
-/**/
-@media (min-width: 576px) {
-    
-}
-
-@media (min-width: 768px) {
-    
-}
-
-@media (min-width: 992px) {
-   
-}
-
-
-@media (max-width: 768px) {
-    
+@media (max-width: 992px) {
+    .header{
+        background-color: black;
+        padding: 2rem 0;
+        position: absolute;
+        width: 100%;
+    }
+    .text-header{
+        margin-top: 0;
+        color: #ffffff;
+        padding-top: 250px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {

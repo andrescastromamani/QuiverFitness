@@ -75,6 +75,7 @@ img         { vertical-align: top;  }
 
 /*HEADER*/
 .site-header{
+    position: relative;
     background-image: url(../img/header.png );
     background-repeat: no-repeat;
     background-position: center center;
@@ -95,7 +96,7 @@ img         { vertical-align: top;  }
     align-items: center;
 }
 .header{
-    background-color: transparent;
+    background-color: black;
     padding: 2rem 0;
 } 
 .nav-link{
