@@ -278,6 +278,13 @@ img         { vertical-align: top;  }
 .logo-footer, .socialMedia{
     text-align: center; 
 }
+.logo-footer p{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.socialMedia a{
+    color: #ffffff;
+}
 .follow{
     font-family: 'SFProDisplay-Regular';
 }
