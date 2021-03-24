@@ -247,6 +247,9 @@ img         { vertical-align: top;  }
     border: none;
     background-color: #ffffff;
 }
+.item-4{
+    margin-bottom: 0;
+}
 
 /*SECTION CONTACT*/ 
 .section-contact{
@@ -282,6 +285,7 @@ img         { vertical-align: top;  }
     color: #ffffff;
     margin-bottom: 0;
 }
+
 .socialMedia a{
     color: #ffffff;
 }

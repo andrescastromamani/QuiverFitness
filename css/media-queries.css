@@ -14,7 +14,6 @@
     .img-appstore{
         margin-top: 1rem;
     }
-
     /*Icons*/
     .icons{
         margin: 1rem 0;
@@ -36,7 +35,10 @@
     .paragraph-about-members{
         text-align: start;
     }  
-
+    /*Question*/
+    .item-4{
+        margin-bottom: 11px;
+    }
     /*Contact*/
     .title-contact{
         text-align: start;
@@ -45,6 +47,13 @@
         display: flex;
         align-items: center;
         justify-content: end;
+    }
+    /*Footer*/
+    .footer .row .logo-footer{
+        text-align: start;
+    }
+    .footer .row .socialMedia{
+        text-align: end;
     }
 }
 @media (min-width: 992px) {
@@ -527,14 +536,8 @@
     }
 
     /*Footer*/
-    .footer .row .logo-footer{
-        text-align: start;
-    }
-    .footer .row .socialMedia{
-        text-align: end;
-    }
     .footer .container .row{
-        margin-left: 119px;
+        margin-left: 54px;
         margin-right: 120px;
     }
     .footer{
@@ -545,6 +548,10 @@
     .img-footer{
         width: 102px;
         margin-top: 5px;
+    }
+    .anio{
+        margin-left: -49px;
+        font-size: 13px;
     }
     .fa-twitter{
         font-size: 21px;
