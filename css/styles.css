@@ -227,7 +227,9 @@ img         { vertical-align: top;  }
     font-family: 'SFProDisplay-Light';
     line-height: 22px;
 }
-
+.card-pricing .btn p {
+    margin-bottom: 0;
+}
 /*SECTION QUESTION*/
 .question{
     padding: 2rem;
