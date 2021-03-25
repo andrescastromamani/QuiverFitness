@@ -61,6 +61,10 @@
     .footer .row .socialMedia{
         text-align: end;
     }
+    .socialMedia a i{
+        font-size: 20px;
+        margin: 0 4px;
+    }
 }
 @media (min-width: 992px) {
     /*Header*/
@@ -548,7 +552,7 @@
     .col-contact .btn-fitness{
         width: 193px;
         margin-right: 22px;
-        margin-bottom: 34px;
+        margin-bottom: 38px;
         height: 42px;
         font-size: 13px;
         font-weight: bold;
@@ -564,7 +568,7 @@
     /*Footer*/
     .footer .container .row{
         margin-left: 54px;
-        margin-right: 120px;
+        margin-right: 52px;
     }
     .footer{
         background-color: black;
@@ -576,28 +580,19 @@
         margin-top: 5px;
     }
     .anio{
-        margin-left: -49px;
         font-size: 13px;
+        margin-left: -100px;
     }
-    .fa-twitter{
-        font-size: 21px;
-        color: #ffffff;
-        margin-top: 2px;
+    .socialMedia a .fa-facebook-square, .socialMedia a .fa-instagram{
+        margin-right: 28px;
+        margin-top: 3px;
     }
-    .fa-instagram{
-        font-size: 21px;
-        margin-right: 29px;
-        color: white;
-    }
-    .fa-facebook-square{
-        font-size: 21px;
-        margin-right: 32px;
-        color: white;
+    .col-follow{
+        margin-top: -7px;
     }
     .follow{
         font-size: 12.3px;
-        margin-right: 43px;
-        color: white;
+        margin-right: -54px;
     }
 }
 

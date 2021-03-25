@@ -189,7 +189,6 @@ img         { vertical-align: top;  }
 .img-training img{
     max-width: 100%;
 }
-
 .title-trainers{
     text-align: center;
     margin-bottom: 1rem;
@@ -306,7 +305,7 @@ img         { vertical-align: top;  }
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
-  }
+}
 
 /*SECTION CONTACT*/ 
 .section-contact{
@@ -345,6 +344,10 @@ img         { vertical-align: top;  }
 
 .socialMedia a{
     color: #ffffff;
+}
+.socialMedia a i{
+    font-size: 25px;
+    margin: 0 10px;
 }
 .follow{
     font-family: 'SFProDisplay-Regular';
