@@ -153,6 +153,9 @@
     .icon-app, .icon-browse, .icon-crush{
         margin-bottom: 32px;
     }
+    .icon-app a figure, .icon-browse a figure, .icon-crush a figure {
+        margin: 0;
+    }
     .icon{
         width: 75px;
     }
@@ -479,9 +482,6 @@
     }
 
     /*Question*/
-    .question{
-        height: 490px;
-    }
     .accordion-one{
         margin-top: 11px;
         width: 500px;
@@ -530,7 +530,7 @@
         padding-top: 10px;
     }
     .question .container{
-        margin-bottom: 51px;
+        margin-bottom: 39px;
     }
 
     /*Contact*/
@@ -563,6 +563,11 @@
     }
     .col-contact h2{
         margin-left: -2px;
+    }
+
+    /*Form*/
+    .section-form .container{
+        padding: 0 147px;
     }
 
     /*Footer*/

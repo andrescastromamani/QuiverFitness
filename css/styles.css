@@ -105,6 +105,10 @@ img         { vertical-align: top;  }
 .nav-item a{
     text-align: start;
 }
+.nav-item a:hover{
+    color: #ffdf00!important;
+    text-decoration: none;
+}
 .link1 a, .link2 a, .link3 a, .link4 a, .link5 a{
     font-family: 'SFProDisplay-Regular';
 }
@@ -323,6 +327,12 @@ img         { vertical-align: top;  }
 .btn-fitness{
     background-color: rgb(255, 223,0);
     text-align: center;
+}
+
+/*FORM*/
+.section-form{
+    background-color: rgb(245, 245, 245);
+    padding: 2rem;
 }
 
 /*FOOTER*/

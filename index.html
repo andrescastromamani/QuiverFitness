@@ -24,7 +24,7 @@
   <header class="site-header">
     <nav class="header navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a title="" class="navbar-brand" href="#">
           <img class="logo-header" src="img/logo-header.png" alt="logo-header">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -34,18 +34,18 @@
         <div class="collapse navbar-collapse col" id="navbar">
           <ul class="navbar-nav">
             <li class="nav-item link1">
-              <a class="nav-link" href="#section-about-members">About</a>
+              <a title="" class="nav-link" href="#section-about-members">About</a>
             </li>
             <li class="nav-item link2">
-              <a class="nav-link" href="#section-about-members">Members</a>
+              <a title="" class="nav-link" href="#section-about-members">Members</a>
             </li>
             <li class="nav-item link3">
-              <a class="nav-link" href="#section-trainers">Trainers</a>
+              <a title="" class="nav-link" href="#section-trainers">Trainers</a>
             </li>
             <li class="nav-item link4">
               <a class="nav-link" href="#section-question">FAQ</a>
             </li>
-            <li class="nav-item link5">
+            <li title="" class="nav-item link5">
               <a class="nav-link" href="#section-contact">Contact</a>
             </li>
           </ul>
@@ -55,8 +55,13 @@
     <div class="container main-content">
       <div class="col-12 col-md-6 text-header container">
         <h1 class="main-text">Revolutionizing fitness.
-          One instructional video at a time.</h1>
-        <img class="img-appstore" src="img/appStore.png" alt="img app store">
+          One instructional video at a time.
+        </h1>
+        <a href="https://www.apple.com/la/app-store/" title="" target="_blank">
+          <figure>
+            <img class="img-appstore" src="img/appStore.png" alt="img app store">
+          </figure>
+        </a>
       </div>
     </div>
   </header>
@@ -69,7 +74,9 @@
         <div class="col-12 col-md-4 col-icon">
           <div class="row icon-app">
             <a href="#">
-              <img class="icon" src="img/icon1.png" alt="icon descarga">
+              <figure>
+                <img class="icon" src="img/icon1.png" alt="icon descarga">
+              </figure>
             </a>
           </div>
           <a class="title title-app" href="">Dowload & Register</a>
@@ -78,7 +85,9 @@
         <div class="col-12 col-md-4 col-icon">
           <div class="row icon-browse">
             <a href="#">
-              <img class="icon" src="img/icon2.png" alt="icon Browse">
+              <figure>
+                <img class="icon" src="img/icon2.png" alt="icon Browse">
+              </figure>
             </a>
           </div>
           <a class="title title-browse" href="">Browse Workouts</a>
@@ -87,7 +96,9 @@
         <div class="col-12 col-md-4 col-icon">
           <div class="row icon-crush">
             <a href="#">
-              <img class="icon" src="img/icon3.png" alt="icon Crush">
+              <figure>
+                <img class="icon" src="img/icon3.png" alt="icon Crush">
+              </figure>
             </a>
           </div>
           <a class="title title-crush" href="">Crush It</a>
@@ -192,7 +203,7 @@
           <div class="row">
             <div class="col-2 number number-one">1</div>
             <div class="col-10 col-one">
-              <p class="paragraph-become">Email us at <a class="correo" href="#">info@quiverfitness.com</a> and tell us more about yourself and your
+              <p class="paragraph-become">Email us at <a class="correo" href="mailto:info@quiverfitness.com">info@quiverfitness.com</a> and tell us more about yourself and your
                 experience in the fitness industry. Please include links to relevant online conten</p>
             </div>
           </div>
@@ -369,8 +380,93 @@
   </section>
   <!--/section contact-->
 
+  <!--Form-->
+  <section class="section-form" id="section-form">
+    <div class="container">
+      <h2 class="title-section">Registrate Gratis</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit vitae deserunt sapiente soluta itaque incidunt. Incidunt deserunt recusandae voluptate eligendi corporis impedit tempore earum, dicta minus, atque obcaecati reiciendis itaque.
+      </p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" required>
+          <div id="nameHelp" class="form-text">Integer sit arnet Tellus Arcu</div>
+        </div>
+        <div class="col-md-6">
+          <label for="last-name" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="last-name" required>
+          <div id="lastNameHelp" class="form-text">Integer sit arnet Tellus Arcu</div>
+        </div>
+        <div class="col-md-6">
+          <label for="address" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="address" placeholder="" required>
+          <div id="addressHelp" class="form-text">Integer sit arnet Tellus Arcu</div>
+        </div>
+        <div class="col-md-6">
+          <label for="input-tel" class="form-label">Telefono</label>
+          <div class="row">
+            <div class="col col-lg-2">
+              <input type="text" class="form-control" id="input-tel" placeholder="" required>
+              <div id="areaHelp" class="form-text">Area</div>
+            </div>
+            <div class="col col-lg-4">
+              <input type="text" class="form-control" id="input-tel" placeholder="" required required>
+              <div id="numberHelp" class="form-text">Numero</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="" required>
+          <div id="emailHelp" class="form-text">Integer sit arnet Tellus Arcu</div>
+        </div>
+        <div class="col-md-6">
+          <label for="date" class="form-label">Fecha de Nacimiento</label>
+          <div class="row">
+            <div class="col col-lg-2 ">
+              <input type="text" class="form-control" id=date" placeholder="" required>
+              <div id="dateHelp" class="form-text">DD</div>
+            </div>
+            <div class="col col-lg-2">
+              <input type="text" class="form-control" id=date" placeholder="" required>
+              <div id="dateHelp" class="form-text">MM</div>
+            </div>
+            <div class="col col-lg-3">
+              <input type="text" class="form-control" id=date" placeholder="" required>
+              <div id="dateHelp" class="form-text">AAAA</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="" required>
+          <div id="passwordHelp" class="form-text">Integer sit arnet Tellus Arcu</div>
+        </div>
+        <div class="col-md-6">
+          <label for="confirm-password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="confirm-password" placeholder="" required>
+          <div id="confirmPasswordHelp" class="form-text">Integer sit arnet Tellus Arcu</div>
+        </div>
+        <hr>
+        <div class="col-12 col-md-8">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              He Leido y acepto los <a href="#">Terminos y Condiciones</a>
+            </label>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <button type="submit" class="btn btn-primary">Registrarse</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!--/Form-->
+
   <!--Footer-->
   <footer class="footer">
+
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6 logo-footer">
