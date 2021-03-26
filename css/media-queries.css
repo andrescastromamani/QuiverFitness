@@ -567,7 +567,11 @@
 
     /*Form*/
     .section-form .container{
-        padding: 0 147px;
+        padding: 30px 147px;
+    }
+    .section-form .container .title-section{
+        font-size: 20px;
+        font-weight: bold;
     }
 
     /*Footer*/

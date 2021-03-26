@@ -334,6 +334,21 @@ img         { vertical-align: top;  }
     background-color: rgb(245, 245, 245);
     padding: 2rem;
 }
+.section-form .container .title-section{
+    font-family: 'SFProDisplay-Bold';
+}
+.conditions{
+    display: flex;
+    align-items: center;
+}
+.btn-register{
+    background-color: rgb(255, 223,0);
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
 
 /*FOOTER*/
 .footer{
